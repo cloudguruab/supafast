@@ -2,9 +2,9 @@ import os
 from supabase import create_client, Client
 
 #variables for database and url configuration
-from ..config import Config
+from config import Config
 
-class Database:
+class SupabaseDB:
     """
     class instance for database connection to supabase
     
