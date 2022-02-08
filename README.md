@@ -1,4 +1,4 @@
-## 🏄‍♂️ SUPAFAST
+<h1 style="center">🏄‍♂️ SUPAFAST</h1>
 
 ### 🐴 Why
 This tutorial should serve as an example of using supabase api to connect to your database instance and build a service to periodically cache and serve consumer credit data on client request. This project covers redis as a caching mechanism, supabase to support our postgres instance, and fastapi for our framework, all deployed on Deta Cloud. 
