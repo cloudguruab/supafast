@@ -23,7 +23,7 @@ In the root directory run the following:
 pip install -r requirements.txt
 ```
 
-### Starting Redis in development environment
+### 🤖 Starting Redis in development environment
 
 To begin working with redis, run the following command, after completion open a new terminal window.
 
@@ -31,7 +31,7 @@ To begin working with redis, run the following command, after completion open a 
 redis-server
 ```
 
-### Activating your development server
+### 👾 Activating your development server
 
 To start your local server run the following command
 
