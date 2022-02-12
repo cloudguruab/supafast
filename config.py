@@ -11,3 +11,5 @@ class Config:
     URL = os.getenv('URL')
     
     KEY = os.getenv('KEY')
+    
+    REDIS_URL = os.getenv('LOCAL_REDIS_INSTANCE')
