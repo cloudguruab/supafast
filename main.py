@@ -79,12 +79,12 @@ async def get_defaults():
     count = 0
     data = SupabaseDB.supabase.table('credit_data').select('*').limit(100).execute()
     
-    for i in data:
-        if count >= len(i[1]):
-            break
+    # for i in data:
+    #     if count >= len(i[1]):
+    #         break
         
-        count += 1
-        lst.append(i[1][count]['age'])
+    #     count += 1
+    #     lst.append(i[1][count]['age'])
 
-    return lst
+    return data
     # return {"message": f'Currently there are {len(arr)} adults 45 older with credit defaults out of 100 individuals.'}

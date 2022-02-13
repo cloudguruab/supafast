@@ -1,8 +1,11 @@
-from fastapi_redis_cache import FastApiRedisCache
+# supabase client
 from config import Config
-from fastapi import Request, Response
 from .database import SupabaseDB
 
+# fast api wrappers for redis and methods
+# for res/rep lifecycles. 
+from fastapi import Request, Response
+from fastapi_redis_cache import FastApiRedisCache
 
 class SupafastCache(FastApiRedisCache):
     """
